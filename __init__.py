@@ -10,7 +10,7 @@ def _jupyter_server_extension_paths():
 def _jupyter_nbextension_paths():
     return [{
         "section": "notebook",
-        "dest": "nbresuse",
+        "dest": "interact",
         "src": "app/static",
         "require": "interact/script"
     }]
