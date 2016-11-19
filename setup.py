@@ -16,5 +16,5 @@ setuptools.setup(
         'toolz',
         'notebook',
     ],
-    package_data={'interact': ['app/static/*']},
+    package_data={'interact': ['static/*']},
 )
